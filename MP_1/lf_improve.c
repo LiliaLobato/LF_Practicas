@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-void joke();
 void menu();
 int file_up();
 
@@ -23,7 +22,7 @@ void menu()
 {
     int menu1choice;
 
-    printf("'\n\nAFD Simulation\n");
+    printf("\n\nAFD Simulation");
     printf("\n------------------------\n");
     printf("1. Upload a .txt file\n");
     printf("2. Manually Upload each description\n");
